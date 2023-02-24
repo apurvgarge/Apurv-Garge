@@ -1,0 +1,18 @@
+grade=0; 
+print("Welcome to the game...")
+firstQ=(int)(input("Q1. When was python developed\n1.1900 2.1971 3.2000 4.2023"))
+if firstQ==2:
+	grade=grade+1
+secondQ=(int)(input("Q2. Who developed Python Programming Language\n1.Wick van Rossum 2.Rasmus Lerdorf 3.Guido van Rossum 4.Niene Stom "))
+if secondQ==3:
+	grade=grade+1
+thirdQ=(int)(input("Q3. Which type of Programming does Python support\n1.object-oriented programming 2.structured programming 3.functional programming 4.functional programming"))
+if thirdQ==4:
+	grade=grade+1
+fourthQ=(int)(input("Q4. Is Python case sensitive when dealing with identifiers\n1. no 2. yes 3. machine dependent 4. none of the mentioned"))
+if fourthQ==2:	
+	grade=grade+1
+fifthQ=(int)(input("Q5. Which of the following is the correct extension of the Python file\n1..python 2. pl 3. .py 4. .p"))
+if fifthQ==3:
+	grade=grade+1
+print("Won the Prize") 
