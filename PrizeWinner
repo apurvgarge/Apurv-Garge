@@ -1,0 +1,35 @@
+score = 0;
+ques = input("Python supports the creation of anonymous functions at runtime, using a construct called __________: \n A: pi\n B:anonymous\n C:lambda\n D:none of the mentioned");
+if(ques=="C"):
+	score+=1;
+ques = input("What does pip stand for python?: \n A: Pip Installs Python\n B: Pip Installs Packages\n C: Preferred Installer Program\n D: All of the mentioned");
+if(ques=="C"):
+	score+=1;
+ques = input("Which of the following is the truncation division operator in Python?: \n A: |\n B://\n C:/\n D:%");
+if(ques=="B"):
+	score+=1;
+ques = input("how to declare function in python: \n A: def\n B:for\n C:int\n D:if");
+if(ques=="A"):
+	score+=1;
+ques = input("which class is used to get current date and time: \n A: Date\n B:GetDate\n C:Instance\n D:Time");
+if(ques=="A"):
+	score+=1;
+ques = input("Which of the following functions is a built-in function in python?: \n A: factorial()\n B:print()\n C:seed()\n D:sqrt()");
+if(ques=="B"):
+	score+=1;
+ques = input("Which of the following is not a core data type in Python programming?: \n A: Tuples\n B: Lists\n C: Class\n D: Dictionary");
+if(ques=="C"):
+	score+=1;
+ques = input("Which one of the following is not a keyword in Python language? \n A: pass\n B: eval\n C: assert\n D: nonlocal");
+if(ques=="D"):
+	score+=1;
+ques = input("Which module in the python standard library parses options received from the command line? \n A: getarg\n B: getopt\n C: main\n D: os");
+if(ques=="B"):
+	score+=1;
+ques = input("what is the symbol to handle multiple exceptions once: \n A: *\n B:&\n C:|\n D:()");
+if(ques=="C"):
+	score+=1;
+
+percent = (score/10)*100;
+
+print("\nYour score is : ", percent, "%");
