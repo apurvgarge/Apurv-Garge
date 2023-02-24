@@ -1,0 +1,14 @@
+range= (int)(input("enter how many numbers you want to check: "));
+
+even =0;
+odd =0;
+
+while range>0:
+	num = (int)(input("enter the number: "));
+	if num%2==0:
+	     even+=1;
+	else:
+	     odd+=1;
+	range-=1;
+
+print("Out of total",range,"numbers,",even,"are even and ",odd,"are odd.");
