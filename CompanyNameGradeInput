@@ -1,0 +1,19 @@
+#Display company's name according grade input.
+
+per=(float)(input("enter percentage"))
+if per>90 and per<=100:
+	grade="A"
+elif per>=80 and per<90:
+	grade="B"
+elif per>=70 and per<80:
+	grade="C"
+else:
+	grade="D"
+if grade=="A"
+	print"Facebook\nGoogle"
+elif grade=="B"
+	print"Wipro\nInfosys"
+elif grade=="C"
+	print"TCS\nDrReddy"
+else grade=="D"
+	print"Vodafone"
